@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.employeemanager"
+    android:versionCode="1"
+    android:versionName="1.0" >
+      
+      <meta-data
+   
+        android:minSdkVersion="16"
+        android:targetSdkVersion="16" />
+
+    <application
+        android:name="com.example.employeemanager.GlobalClass" 
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme"
+        >
+         
+        <activity
+            android:name="com.example.employeemanager.MainActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    
+        <activity android:name="Login"></activity>
+        <activity android:name="Home"></activity>
+        <activity android:name="Add_new_employee"></activity>
+        <activity android:name="Add_new_emp_contact"></activity>
+        <activity android:name="Add_new_emp_details"></activity>
+        <activity android:name="Add_new_emp_other"></activity>
+        <activity android:name="Emp_search"></activity>
+        <activity android:name="Search"></activity>
+        <activity android:name="Emp_signup"></activity>
+        <activity android:name="Edit_emp_details"></activity>
+        <activity android:name="New"></activity>
+        <activity android:name="Add_newEmpManager"></activity>
+        <activity android:name="Add_empDetailManager"></activity>
+        <activity android:name="Add_empOtherManager"></activity>
+        <activity android:name="Add_empContactManager"></activity>
+        <activity android:name="Emp_profile"></activity>
+        <activity android:name="Personale_info"></activity>
+        <activity android:name="Calendar"></activity>
+        <activity android:name="Emp_pay"></activity>
+        <activity android:name="Emp_salary"></activity>
+        <activity android:name="Emp_work_details"></activity>
+        <activity android:name="Tab1Activity"></activity>
+        <activity android:name="Tab2Activity"></activity>
+        <activity android:name="Tab3Activity"></activity>
+      
+
+    </application>
+  <uses-permission android:name="android.permission.READ_CONTACTS" />
+
+</manifest>

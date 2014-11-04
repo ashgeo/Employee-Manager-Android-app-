@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+<string name="hello_world">Password</string>
+<string name="user_name">User Name</string>
+    <string name="btn_en">English</string>
+    <string name="btn_ru">Russian</string>
+    <string name="btn_de">German</string>
+    <string name="btn_fr">French</string>
+    
+    <string name="app_name">Employee Manager</string>  
+   
+     <string-array name="Departments">
+    <item>Computer</item>
+    <item>Electrical</item> 
+    <item>Mecanical</item> 
+    <item>Aero Space</item>     
+    </string-array>  
+    
+   <string-array name="Employeegroup">
+       <item>Student </item>
+        <item>Permanant Staff</item>
+        <item>Temporary staff</item>
+   </string-array>
+   
+   
+    <string-array name="language">
+        <item>English</item>
+        <item>French</item>
+        
+        <item>Russian</item>
+   </string-array>
+   <string-array name="citizen">
+       <item>Citizen </item>
+        <item>PR Holder</item>
+          </string-array>
+          
+          <string-array name="Prtype">
+       <item>Normal </item>
+        <item>Long</item>
+          </string-array>
+   
+
+<string name="findContact">Emp Name or Code</string>
+
+</resources>
